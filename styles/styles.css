@@ -3,8 +3,12 @@ h1 {
   font-size: "Poppins", sans-serif;
 }
 body {
-  background: beige;
+  background: whitesmoke;
 }
-.fa-brands {
-  display: block;
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+.main-border {
+  background: #f4ebe6;
 }
