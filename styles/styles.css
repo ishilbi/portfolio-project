@@ -38,6 +38,9 @@ body {
 .main-border {
   background: #f4ebe6;
 }
+.social-media-links {
+  color: var(--primary-color);
+}
 .navigation-links {
   display: flex;
   margin-top: 40px;
@@ -74,6 +77,7 @@ footer {
   font-family: var(--primary-font-family);
   font-size: 13px;
   margin-bottom: 20px;
+  color: gray;
 }
 .footer-link {
   text-decoration: none;
