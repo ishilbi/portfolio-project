@@ -86,3 +86,11 @@ footer {
 .portfolio-wrapper {
   margin-bottom: 80px;
 }
+@media (max-width: 576px) {
+  h1 {
+    font-size: 45px;
+  }
+  .primary-description {
+    margin: 0;
+  }
+}
