@@ -3,6 +3,8 @@
   --secondary-font-family: "Playfair Display", serif;
   --primary-color: #4c3a51;
   --secondary-color: #e7ab79;
+  --terciary-color: #142d4c;
+  --fourth-color: #ececec;
 }
 body {
   background: whitesmoke;
@@ -55,6 +57,7 @@ footer {
   margin-top: 100px;
   justify-content: space-evenly;
 }
+
 .primary-link {
   border-radius: 4px;
   padding: 20px 15px;
@@ -63,6 +66,10 @@ footer {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
   color: var(--secondary-color);
+}
+.primary-link:hover {
+  background-color: var(--terciary-color);
+  color: var(--fourth-color);
 }
 .secondary-link {
   border-radius: 4px;
@@ -73,6 +80,10 @@ footer {
   border: 1px solid var(--primary-color);
   background: var(--secondary-color);
 }
+.secondary-link:hover {
+  background-color: var(--fourth-color);
+  color: var(--terciary-color);
+}
 .terciary-link {
   border-radius: 4px;
   padding: 20px 15px;
@@ -82,7 +93,10 @@ footer {
   box-shadow: var(--box-shadow);
   color: var(--secondary-color);
 }
-
+.terciary-link:hover {
+  background-color: var(--terciary-color);
+  color: var(--fourth-color);
+}
 .footer-link {
   text-decoration: none;
   color: var(--primary-color);
@@ -90,6 +104,19 @@ footer {
 .portfolio-wrapper {
   margin-top: 70px;
   margin-bottom: 70px;
+}
+.btn-branding-outline {
+  border-radius: 4px;
+  color: var(--secondary-color);
+  background-color: var(--primary-color);
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+  border: 1px solid var(--primary-color);
+}
+.btn-branding-outline:hover {
+  background-color: var(--terciary-color);
+  color: var(--fourth-color);
 }
 @media (max-width: 960px) {
   h1 {
