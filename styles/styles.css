@@ -4,11 +4,16 @@
   --primary-color: #4c3a51;
   --secondary-color: #e7ab79;
 }
+body {
+  background: whitesmoke;
+  max-width: 800px;
+  margin: auto;
+}
 h1 {
   color: black;
   font-family: var(--primary-font-family);
   font-size: 60px;
-  line-height: 5s0px;
+  line-height: 50px;
 }
 h2 {
   font-family: var(--primary-font-family);
@@ -17,13 +22,9 @@ h2 {
 h3 {
   font-family: var(--secondary-font-family);
   text-align: center;
+  font-size: 27px;
 }
 
-body {
-  background: whitesmoke;
-  max-width: 800px;
-  margin: auto;
-}
 .main-description {
   font-family: var(--secondary-font-family);
   font-size: 18px;
@@ -76,7 +77,6 @@ body {
 footer {
   font-family: var(--primary-font-family);
   font-size: 13px;
-  margin-bottom: 20px;
   color: gray;
 }
 .footer-link {
@@ -86,11 +86,30 @@ footer {
 .portfolio-wrapper {
   margin-bottom: 80px;
 }
-@media (max-width: 576px) {
+@media (max-width: 960px) {
   h1 {
-    font-size: 45px;
+    font-size: 40px;
   }
-  .primary-description {
-    margin: 0;
+  h2 {
+    font-size: 30px;
+  }
+  footer {
+    font-size: 13px;
+  }
+  .portfolio-wrapper {
+    padding: 20px 10px;
+  }
+
+  .profile-description {
+    margin-top: 0;
+    padding-top: 0;
+  }
+  .navigation-links {
+    padding-top: 0px;
+    padding-bottom: 30px;
+  }
+  .main-description {
+    text-align: center;
+    padding-top: 10px;
   }
 }
