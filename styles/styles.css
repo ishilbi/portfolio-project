@@ -59,6 +59,9 @@ footer {
   color: var(--primary-color);
   text-decoration: none;
 }
+.social-media-links:hover {
+  color: #b5692c;
+}
 .navigation-links {
   display: flex;
   margin-top: 100px;
