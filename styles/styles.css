@@ -57,6 +57,7 @@ footer {
 }
 .social-media-links {
   color: var(--primary-color);
+  text-decoration: none;
 }
 .navigation-links {
   display: flex;
