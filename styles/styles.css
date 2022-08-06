@@ -91,22 +91,10 @@ footer {
   background: var(--secondary-color);
 }
 .secondary-link:hover {
-  background-color: var(--fourth-color);
-  color: var(--terciary-color);
-}
-.terciary-link {
-  border-radius: 4px;
-  padding: 20px 15px;
-  text-decoration: none;
-  text-transform: capitalize;
-  background: var(--primary-color);
-  box-shadow: var(--box-shadow);
-  color: var(--secondary-color);
-}
-.terciary-link:hover {
   background-color: var(--terciary-color);
   color: var(--fourth-color);
 }
+
 .footer-link {
   text-decoration: none;
   color: var(--primary-color);
@@ -124,6 +112,20 @@ footer {
   padding: 15px 30px;
   border: 1px solid var(--primary-color);
 }
+.btn-branding:hover {
+  color: var(--secondary-color);
+  background-color: #142d4c;
+}
+.btn-branding-outline {
+  color: var(--secondary-color);
+  border: 1px solid var(--primary-color);
+  background-color: var(--primary-color);
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+
 .btn-branding-outline:hover {
   background-color: var(--terciary-color);
   color: var(--fourth-color);
